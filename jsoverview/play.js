@@ -9,7 +9,9 @@ const summarizeUser =  (userName, userAge, userHasHobby) => {
 }
 
 const add = (a, b) => a + b;
+const addRandom = () => 1 + 3;
 
 console.log(add(2,6));
+console.log(addRandom());
 
 console.log(summarizeUser('Yadnyesh', 37, true));
