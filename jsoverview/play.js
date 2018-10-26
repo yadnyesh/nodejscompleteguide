@@ -14,5 +14,5 @@ for (let hobby of hobbies) {
 }
 console.log(hobbies.map(hobby =>'Hobby: ' + hobby));
 
-const copiedArray = hobbies.slice();
+const copiedArray = [...hobbies];
 console.log(copiedArray);
