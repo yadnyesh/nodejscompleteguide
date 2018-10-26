@@ -13,3 +13,6 @@ for (let hobby of hobbies) {
   console.log(hobby);
 }
 console.log(hobbies.map(hobby =>'Hobby: ' + hobby));
+
+const copiedArray = hobbies.slice();
+console.log(copiedArray);
