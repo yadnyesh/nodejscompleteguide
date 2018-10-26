@@ -8,9 +8,7 @@ const summarizeUser =  (userName, userAge, userHasHobby) => {
   return('Name is: ' + userName + ', age is: '+ userAge + ', has hobbies? ' + userHasHobby);
 }
 
-const add = (a, b) => {
-  return a + b;
-}
+const add = (a, b) => a + b;
 
 console.log(add(2,6));
 
