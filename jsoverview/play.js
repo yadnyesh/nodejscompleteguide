@@ -5,20 +5,3 @@ const person = {
     console.log('Hi I am ' + this.name);
   }
 };
-
-// console.log(person);
-
-const hobbies = ['Sports', 'Cooking'];
-for (let hobby of hobbies) {
-  console.log(hobby);
-}
-console.log(hobbies.map(hobby =>'Hobby: ' + hobby));
-
-const copiedArray = [...hobbies];
-console.log(copiedArray);
-
-const toArray = (...args) => {
-  return args;
-}
-
-console.log(toArray(1,2,3,4));
