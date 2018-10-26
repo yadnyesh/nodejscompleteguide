@@ -2,7 +2,9 @@ const name = 'Max';
 let age = 29;
 const hasHobbies = true;
 
-function summarizeUser(userName, userAge, userHasHobby) {
+age = 30;
+
+const summarizeUser = function (userName, userAge, userHasHobby) {
   return('Name is: ' + userName + ', age is: '+ userAge + ', has hobbies? ' + userHasHobby);
 }
 
