@@ -43,3 +43,5 @@ const requestHandler = (req, res) => {
 module.exports = {
   handler: requestHandler
 };
+
+//module.exports.handler = requestHandler;
