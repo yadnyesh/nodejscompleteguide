@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/yadnyesh/nodejscompleteguide/issues"
   },
-  "homepage": "https://github.com/yadnyesh/nodejscompleteguide#readme"
+  "homepage": "https://github.com/yadnyesh/nodejscompleteguide#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
 }
