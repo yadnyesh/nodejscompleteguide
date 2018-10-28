@@ -14,6 +14,5 @@ app.use((req, res, next) => {
   console.log('In another middleware');
   res.send('<html>Hello From Express</html>');
 });
-const server = http.createServer(app);
 
-server.listen(3000);
+app.listen(3000);
